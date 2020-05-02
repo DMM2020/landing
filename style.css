@@ -201,18 +201,6 @@ input[type=submit]:hover {
   border-radius: 4px;
 }
 
- .card-white2 ul{
-  font-style: italic;
-  line-height: 1;
-  }
-
-.card-white2 h3{
-  color: #EA5A0B;
-  font-family: Chivo;
-  font-size: 25px;
-   line-height: 1.2
-}
-
 
 .footer{ 
 background-color: #3C3C3B;
