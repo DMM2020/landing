@@ -80,7 +80,7 @@ li{
 
  .container1 {
   width: 1400px;
-  height: 700px;
+  max-height: 700px;
   margin: 20px auto;
  background-position: center;
 }
@@ -103,7 +103,7 @@ li{
 }
 .container2 {
  width: 1400px;
- height: 650px;
+ max-height: 650px;
  margin: 20px auto;
  background-position: center;
 }
@@ -130,7 +130,7 @@ li{
   padding: 40px;
   margin:10px;
   width: 1200px;
- height: 400px;
+max-height: 400px;
 }
 
 .contain3 input[type=text], textarea {
