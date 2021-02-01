@@ -1,43 +1,253 @@
 
-.banner { background-color: black;
-Padding: 60px 0;
-text-align:center;
+body {
+  font-family: Overpass;
+  color: #404042;
+  font-size: 18px;
+  margin: 0;
+}
 
+h1 {
+  color: white;
+  font-family: Chivo;
+}
+h2 {
+  color: #3C3C3B;
+  font-family: Chivo;
+  font-size: 30px;
+}
+ h3 {
+  color: #EA5A0B;
+  font-family: Chivo;
+  font-size: 25px;
+   line-height: 0.1
+}
+
+li{
+  color: #3C3C3B;
+  font-size: 20px;
+}
+
+
+
+.banner {
+  background-image: url('image/Singapore.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 170px 0;
+  text-align: center;
+}
 
 	}
 .banner H1{
-	color:white;
-	Front-size 40px;
-	Background: url('immages/Background.jpg');
-	background-position: center;
-	background-size: cover; 
+  color:white;
+	Front-size 60px;
+	margin:60; 
 }
 
 .banner p{
 	color:white;
-	Front-size 20px;
-	opacity:0.7;
-	margin-bottom:40 px;
+	Front-size 60px;
+	margin-bottom:60 px;
 }
 .banner a{
 	color:white;
-	background-color: blue;
-	padding:20px;
+	background-color: #EA5A0B;
+	padding:10px;
 	border-radius: 8px;
+	text-align:center; 
+	Front-size 100px;
 }
 
-.banner a:hover(
-	background-color: blue;
+
+.container0 p {
+  color: #EA5A0B;
+  font-weight: bold;
+  text-justify:center;
+  color: rgba(166,169,182, 0.8);
+  font-family: "Ubuntu", Sans-serif;
+  font-size: 40px;
+  font-weight: 600;
 }
+
+
+.container0 {
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+ .container1 {
+  width: 1400px;
+  max-height: 700px;
+  margin: 20px auto;
+ background-position: center;
+}
+
+.container1aa p {
+  color: #EA5A0B;
+  font-weight: bold;
+  text-justify:center;
+  color: rgb(255, 255, 255);
+  font-family: "Ubuntu", Sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+}
+.container1aa {
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  
+  text-align: center;
+}
+
+.container1a p {
+  color: #EA5A0B;
+  font-weight: bold;
+  text-justify:center;
+  color: rgba(166,169,182, 0.8);
+  font-family: "Ubuntu", Sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+}
+.container1a {
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  
+  text-align: center;
+}
+.container2 {
+ width: 1400px;
+ max-height: 700px;
+ margin: 20px auto;
+ background-position: center;
+}
+
+.container2a p {
+  color: #EA5A0B;
+  font-weight: bold;
+  text-justify:center;
+  color: rgba(166,169,182, 0.8);
+  font-family: "Ubuntu", Sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+}
+.container2a {
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+.container2aa p {
+  color: #EA5A0B;
+  font-weight: bold;
+  text-justify:left;
+  color: rgb(255, 255, 255);
+  font-family: "Ubuntu", Sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+}
+.container2aa {
+  background-color: white;
+  background-size: cover;
+  background-position:center;
+  
+  text-align: left;
+}
+
+/* Add a background color and some padding around the form */
+.container3 {
+  background-color: #f2f2f2;
+  padding: 40px;
+  margin:140px;
+  width: 1300px;
+ max-height: 500px;
+background-position:center}
+
+.contain3 input[type=text], textarea {
+  width: 100%; /* Full width */
+  padding: 15px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 10px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 0px; /* Add a top margin */
+  margin-bottom: 0px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  line-height: 1;
+}
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #EA5A0B;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #EA5A0B;
+}
+
+
+
+
+.cards1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+}
+.cards2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+}
+
+.card-white {
+  background: white;
+  margin-right: 40px;
+  width: 600px;
+  height: 600px;
+  object-fit: cover;
+  background-position:center;
+
+}
+.card-white img {
+  width: 600px;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.card-white2 {
+  background: white;
+  margin-right: 40px;
+  width: 600px;
+  height: 600px;
+  object-fit: cover;
+  background-position:center;
+}
+.card-white2 img {
+  width: 600px;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 4px;
+background-position:center;}
+
+
+
 
 .footer{ 
-background-color: #404042 
+background-color: #3C3C3B;
 color:white;
 text-align:center;
-padding: 40px 0px;
-}
-.offer{background-color: red
+padding: 10px 0px;
+font-size: 15px;
+
 
 }
 
-	/* Write some CSS below */
+
+
+
